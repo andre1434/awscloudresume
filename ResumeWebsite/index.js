@@ -7,8 +7,9 @@ async function updateCounter() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     let data = await response.json();
-    console.log(data); // Log the data to check its structure
-    if (data.views !== undefined) {
+    console.log("Fetched data:", data); // Log the entire data object
+
+    if (data && typeof data === 'object' && 'views' in data) {
       counter.innerHTML = ` Website Views: ${data.views}`;
     } else {
       counter.innerHTML = ` Website Views: Data not available`;
