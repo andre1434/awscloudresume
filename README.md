@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/aeedb415-9725-42a3-95fc-f1e84e5088a6)
 <h1>Static Website using AWS</h1>
-<p>This repository contains walkthroughs for building a static website using AWS S3 and implement other services suck as:</p>
+<p>This repository contains walkthroughs for building a static website using AWS S3 and implement other services such as:</p>
 <ul>
   <li>Route 53</li>
   <li>Lambda</li>
